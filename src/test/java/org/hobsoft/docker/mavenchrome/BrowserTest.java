@@ -52,6 +52,6 @@ public class BrowserTest
 		driver.get("http://androidreact.westus.cloudapp.azure.com:81/");
 		driver.findElement(By.id("titulo")).click();	
 		
-		assertThat(driver.getTitle(), containsString("Proteccion"));
+		assertThat(driver.getTitle(), containsString("Demoweb"));
 	}
 }
