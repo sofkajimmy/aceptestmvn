@@ -1,4 +1,3 @@
-
 package org.hobsoft.docker.mavenchrome;
 
 import org.junit.After;
