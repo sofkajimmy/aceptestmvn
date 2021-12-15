@@ -61,9 +61,9 @@ public class BrowserTest
 	@Test
 	public void canDuck()
 	{
-		driver.get("http://androidreact.westus.cloudapp.azure.com:81/");
-		driver.findElement(By.id("titulo")).click();	
+		driver.get("http://sahitest.com/demo/training/login.htm");
+		driver.findElement(By.xpath("/html/body/center/div/form/table/tbody/tr[3]/td[2]/input")).click();	
 		
-		assertThat(driver.getTitle(), containsString("Demoweb"));
+		assertThat(driver.getTitle(), containsString("Login"));
 	}
 }
